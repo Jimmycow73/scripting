@@ -13,7 +13,7 @@ sleep 2
 apt-get dist-upgrade
 echo -e "${RED}*** - Dist-Upgrade complete, apt Installing${NC}"
 sleep 2
-apt install htop fail2ban git tmux -y
+apt install htop fail2ban git tmux neofetch btop firejail -y
 echo -e "${RED}*** - Installing RTL8812au drivers ***This will look like it has hung at times, Just WAIT!***${NC}"
 sleep 2
 apt-get install dkms
