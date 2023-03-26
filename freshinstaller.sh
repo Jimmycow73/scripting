@@ -18,7 +18,7 @@ echo -e "${RED}*** - Installing RTL8812au drivers ***This will look like it has 
 sleep 2
 apt-get install dkms
 echo -e "${RED}*** - dkms complete${NC}"
-apt-get install realtek-rtl88xxau-dkms
+apt-get install realtek-rtl88xxau-dkms -y
 echo -e "${RED}*** - realtek dkms complete${NC}"
 git clone https://github.com/aircrack-ng/rtl8812au.git
 echo -e "${RED}*** - driver clone complete, Making${NC}"
